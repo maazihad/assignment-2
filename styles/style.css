@@ -49,11 +49,11 @@ header {
   background-color: yellow;
 }
 .d {
-  /* display: none; */
+  display: none;
 }
 /* -----------------------------------------
       Header Area || Banner Areas Styles 
-   ------------------------------------    */
+   --------------------------------------- */
 .banner-area {
   text-align: center;
 }
@@ -67,9 +67,14 @@ header {
   width: 70%;
   margin: 0 auto;
   color: #727272;
+  line-height: 1.7rem;
 }
 
 .banner-image img {
   width: 100%;
   margin: 30px 0;
 }
+
+/* -----------------------------------------
+      our-features-section style Start
+   --------------------------------------- */
