@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
 
+/* -----------------------------------------
+      Common Style Reset 
+   ------------------------------------    */
+
+:root {
+  --btn-bg-color: #ff900e;
+  --btn-text-color: white;
+  --btn-hover-bg-color: #f18306;
+}
+
 *,
 *::after,
 *::before {
@@ -9,4 +19,57 @@
   list-style: none;
   text-decoration: none;
   font-family: "Work Sans", sans-serif;
+}
+
+header {
+  background-color: #f5f6fa;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.padding-container {
+  padding: 30px;
+}
+.btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--btn-hover-bg-color);
+}
+.b {
+  background-color: yellow;
+}
+.d {
+  display: none;
+}
+/* -----------------------------------------
+      Header Area || Banner Areas Styles 
+   ------------------------------------    */
+.banner-area {
+  text-align: center;
+}
+.banner-tite {
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  color: #131313;
+  font-weight: 800;
+}
+.banner-description {
+  padding: 20px 0;
+  width: 70%;
+  margin: 0 auto;
+  color: #727272;
+}
+
+.banner-image img {
+  width: 100%;
+  margin: 30px 0;
 }
