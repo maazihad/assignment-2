@@ -212,6 +212,10 @@ header {
 /* -----------------------------------------
       Our Ongoing Projects Gallary
    --------------------------------------- */
+.gallary-image-section {
+  padding: 40px 0;
+}
+
 .gallary-title {
   text-align: center;
 }
@@ -234,6 +238,10 @@ header {
   object-fit: cover;
   cursor: pointer;
   border-radius: 10px;
+  border: 2px solid transparent;
+}
+.gallary img:hover {
+  border: 2px solid #e74c3c;
 }
 .horizontal {
   grid-column: auto / span 2;
