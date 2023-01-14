@@ -69,7 +69,7 @@ header {
   display: flex;
   gap: 14px;
 }
-.menu-title {
+.menu-title a {
   color: #131313;
   font-size: 2.5rem;
 }
@@ -88,6 +88,7 @@ header {
   display: none;
   font-size: 1.8rem;
   color: var(--menu-text-color);
+  cursor: pointer;
 }
 .banner-area {
   text-align: center;
@@ -276,6 +277,12 @@ header {
   border: 1px solid #ff900e;
   padding: 40px 20px;
   border-radius: 6px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.award:hover {
+  width: 250px;
+  height: 250px;
+  transform: rotate(360deg);
 }
 .award .num {
   color: #424242;
@@ -295,7 +302,7 @@ header {
 }
 .sponsors-description {
   width: 80%;
-  margin: 15px auto;
+  margin: 20px auto;
 }
 .sponsors-logo-section {
   display: flex;
