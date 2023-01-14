@@ -67,12 +67,26 @@
   .architectrue-points > div {
     margin: 5px 0;
   }
+  .award-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .facts-title {
+    text-align: center;
+  }
+  .facts-description {
+    width: 90%;
+    text-align: center;
+    margin: 15ps auto;
+  }
 }
 @media only screen and (max-width: 576px) {
   .banner-description {
     width: 90%;
   }
   .our-features-image-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .award-section {
     grid-template-columns: repeat(1, 1fr);
   }
 }
