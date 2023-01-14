@@ -51,8 +51,13 @@ header {
   color: #727272;
   line-height: 1.7rem;
 }
+
+.s-title {
+  font-size: 3rem;
+  color: #131313;
+}
 .b {
-  background-color: yellow;
+  /* background-color: rgb(154, 172, 186); */
 }
 .d {
   display: none;
@@ -118,4 +123,68 @@ header {
 }
 .features-description {
   margin: 15px 0;
+}
+
+/* -----------------------------------------
+      love-and-enjoy-section style Start
+   --------------------------------------- */
+.love-and-enjoy-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+.part-1 {
+  width: 45%;
+}
+.part-2 {
+  width: 55%;
+}
+
+.love-enjoy-title {
+  border-left: 7px solid #ff900e;
+  padding-left: 20px;
+  width: 90%;
+}
+
+.love-and-enjoy-left-side-part .love-enjoy-description {
+  margin: 10px 0 16px;
+}
+.architectrue-points > div {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  padding: 4px 20px;
+  margin: 20px 0;
+}
+.point .point-title {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+.point-description {
+  padding: 0 0 10px;
+}
+.love-and-enjoy-image-part {
+  position: relative;
+}
+.architecture-img img {
+  width: 90%;
+  height: auto;
+  float: right;
+  margin-top: 125px;
+}
+.btn-big {
+  padding: 45px 43px 35px;
+  color: var(--btn-text-color);
+  background-color: var(--btn-bg-color);
+  font-size: 4rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  line-height: 2.2rem;
+  position: absolute;
+  bottom: 105px;
+  left: 0;
+}
+.btn-big .btn-big-small-text {
+  font-size: 1.3rem;
+  font-weight: 400;
 }
